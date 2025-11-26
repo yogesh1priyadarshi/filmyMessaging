@@ -11,7 +11,6 @@ import apiRouter from "./src/routes/apiRoutes.js"
 import { connectMongoDB } from "./src/config/MongoDBConfig.js";
 import cors from "cors";
 
-
 const app = express();
 
 // Middleware
