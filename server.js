@@ -30,7 +30,7 @@ app.use("/api/v1",apiRouter);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173",  // your frontend
+    origin: ["http://localhost:5173","https://filmyfronteddummy.onrender.com"],  // your frontend
     methods: ["GET", "POST"],
     credentials: true,                // 🔑 allows cookies to be sent
   },
